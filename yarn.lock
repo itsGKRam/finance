@@ -46,6 +46,63 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@decs/typeschema@npm:^0.12.2":
+  version: 0.12.2
+  resolution: "@decs/typeschema@npm:0.12.2"
+  peerDependencies:
+    "@deepkit/type": ^1.0.1-alpha.113
+    "@effect/schema": ^0.60.6
+    "@sinclair/typebox": ^0.32.11
+    ajv: ^8.12.0
+    arktype: ^1.0.29-alpha
+    effect: ^2.1.2
+    fp-ts: ^2.16.2
+    io-ts: ^2.2.21
+    joi: ^17.12.0
+    ow: ^0.28.2
+    runtypes: ^6.7.0
+    superstruct: ^1.0.3
+    valibot: ^0.26.0
+    vite: ^5.0.12
+    yup: ^1.3.3
+    zod: ^3.22.4
+  peerDependenciesMeta:
+    "@deepkit/type":
+      optional: true
+    "@effect/schema":
+      optional: true
+    "@sinclair/typebox":
+      optional: true
+    ajv:
+      optional: true
+    arktype:
+      optional: true
+    effect:
+      optional: true
+    fp-ts:
+      optional: true
+    io-ts:
+      optional: true
+    joi:
+      optional: true
+    ow:
+      optional: true
+    runtypes:
+      optional: true
+    superstruct:
+      optional: true
+    valibot:
+      optional: true
+    vite:
+      optional: true
+    yup:
+      optional: true
+    zod:
+      optional: true
+  checksum: 10c0/b377dd1202947c38ccdefa4cb7e9df26978208feb13c5977a98977ea9d0837f2bd87094029f693aa850c5693eac3569d26895336fbe0704b4a49326e290dd7b4
+  languageName: node
+  linkType: hard
+
 "@eslint-community/eslint-utils@npm:^4.2.0":
   version: 4.4.0
   resolution: "@eslint-community/eslint-utils@npm:4.4.0"
@@ -3075,6 +3132,7 @@ __metadata:
     eslint: "npm:8.57.0"
     eslint-config-next: "npm:14.1.3"
     next: "npm:14.1.3"
+    next-safe-action: "npm:^6.2.0"
     postcss: "npm:^8.4.38"
     postcss-preset-mantine: "npm:1.15.0"
     postcss-simple-vars: "npm:^7.0.1"
@@ -3306,6 +3364,22 @@ __metadata:
   version: 0.6.3
   resolution: "negotiator@npm:0.6.3"
   checksum: 10c0/3ec9fd413e7bf071c937ae60d572bc67155262068ed522cf4b3be5edbe6ddf67d095ec03a3a14ebf8fc8e95f8e1d61be4869db0dbb0de696f6b837358bd43fc2
+  languageName: node
+  linkType: hard
+
+"next-safe-action@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "next-safe-action@npm:6.2.0"
+  dependencies:
+    "@decs/typeschema": "npm:^0.12.2"
+    zod: "npm:^3.22.4"
+  peerDependencies:
+    next: ">= 14.0.0"
+    react: ">= 18.2.0"
+  dependenciesMeta:
+    zod:
+      optional: true
+  checksum: 10c0/d6d10e398acea886f4399801f3eaae8095f0378f9af6cc05cb4cb033863afb82811a32db2700a8b3e260e412d420f5635b18e3ee5b2512db01b9c7c74e9e8be7
   languageName: node
   linkType: hard
 
@@ -5181,7 +5255,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:^3.23.8":
+"zod@npm:^3.22.4, zod@npm:^3.23.8":
   version: 3.23.8
   resolution: "zod@npm:3.23.8"
   checksum: 10c0/8f14c87d6b1b53c944c25ce7a28616896319d95bc46a9660fe441adc0ed0a81253b02b5abdaeffedbeb23bdd25a0bf1c29d2c12dd919aef6447652dd295e3e69
